@@ -48,3 +48,7 @@ function total() {
   
   return total
 }
+
+function removeFromCart(itemName) {
+  if cart
+}
