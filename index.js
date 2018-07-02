@@ -39,3 +39,12 @@ function viewCart() {
   return 'In your cart, you have ' + output
   
 }
+
+function total() {
+  var total = 0; 
+  for (var i = 0; i < cart.length; i++) {
+    total += cart[i].itemPrice;
+  }
+  
+  return total
+}
