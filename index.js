@@ -18,3 +18,12 @@ function addToCart(item) {
   
   return `${newObject.itemName} has been added to your cart.`
 }
+
+function viewCart() {
+  if (cart.length === 0) {
+    return "Your shopping cart is empty."
+  }
+  
+  
+  return "In your cart," + output
+}
