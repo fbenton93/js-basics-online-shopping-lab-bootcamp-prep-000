@@ -30,7 +30,7 @@ function viewCart() {
       if (i === cart.length - 1) {
         output += `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
       } else {
-        output += `${cart[i].itemName} at ${cart[i].itemPrice}, `
+        output += `${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
     }
     return "In your cart, you have" + output
