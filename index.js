@@ -65,5 +65,5 @@ function placeOrder(cc) {
     return "Sorry, we don't have a credit card on file for you."
   }
   cart = [];
-  return `Your total cost is ${cost}, which will be charged to the card ${cc}.`
+  return `Your total cost is $${cost}, which will be charged to the card ${cc}.`
 }
