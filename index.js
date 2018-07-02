@@ -33,7 +33,7 @@ function viewCart() {
         output += `${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
     }
-    return `In your cart, you have ${object}`
+    return `In your cart, you have ${output}`
   
   }
   
