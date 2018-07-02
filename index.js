@@ -11,8 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
   newObject = new Object();
-  newObject['itemName'] = item
+  newObject['itemName'] = item;
   newObject['itemPrice'] = Math.floor(Math.random() * 100);
   
-  cart.push(newObject)
+  cart.push(newObject);
+  
+  return `${newObject.itemName} has been added to your cart.`
 }
