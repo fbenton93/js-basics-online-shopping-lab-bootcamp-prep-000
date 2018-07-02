@@ -36,6 +36,6 @@ function viewCart() {
   
   }
   
-  return "In your cart, you have " + output
+  return 'In your cart, you have' + output
   
 }
