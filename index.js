@@ -20,7 +20,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var output = {};
+  var output = new Object();
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   } else if (cart.length === 1) {
@@ -33,7 +33,7 @@ function viewCart() {
         output += `${cart[i].itemName} at $${cart[i].itemPrice}, `
       }
     }
-    return `In your cart, you have ${output}`
+    return `In your cart, you have ${output}`;
   
   }
   
